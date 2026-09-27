@@ -77,14 +77,6 @@
             border-radius: 6px;
         }
 
-        .legacy-note {
-            background: #fff8f2;
-            border-left: 4px solid #d97706;
-            padding: 14px 16px;
-            margin: 16px 0;
-            border-radius: 6px;
-        }
-
         .footer {
             margin-top: 40px;
             padding-top: 20px;
@@ -125,7 +117,7 @@
 
     <p class="updated">
         <strong>সর্বশেষ হালনাগাদ / Last Updated:</strong>
-        ২৬ সেপ্টেম্বর ২০২৬
+        ২৭ সেপ্টেম্বর ২০২৬
     </p>
 
 
@@ -160,14 +152,14 @@
     </p>
 
     <p>
-        অ্যাপটি Android device-এর available current বা last known location
+        অ্যাপটি Android device-এর available current অথবা last known location
         ব্যবহার করে স্থানীয়ভাবে এই হিসাব সম্পন্ন করে।
     </p>
 
     <p>
         বর্তমান implementation অনুযায়ী অ্যাপ background location tracking
         করে না এবং location তথ্য developer-operated server-এ পাঠানোর
-        কোনো app-owned ব্যবস্থা পাওয়া যায়নি।
+        কোনো app-owned ব্যবস্থা নেই।
     </p>
 
 
@@ -223,7 +215,7 @@
 
     <p>
         বর্তমান implementation অনুযায়ী এই Daily Notebook records
-        developer-operated server-এ পাঠানোর কোনো app-owned ব্যবস্থা নেই।
+        developer-operated server-এ পাঠানো হয় না।
     </p>
 
     <p>
@@ -232,45 +224,7 @@
     </p>
 
 
-    <h2>৭. Legacy Baki/Dhar Data</h2>
-
-    <div class="legacy-note">
-
-        <p>
-            পুরোনো app version-এ Baki/Dhar Khata ব্যবহার করা হয়ে থাকলে
-            সেই পুরোনো local data app update করার পরও device-এর app storage-এ
-            থেকে যেতে পারে।
-        </p>
-
-        <p>
-            বর্তমান app version-এ Baki/Dhar Khata user-facing feature হিসেবে
-            উপলব্ধ নয়।
-        </p>
-
-        <p>
-            এই legacy data-তে পুরোনো version থেকে person name, mobile number,
-            amount, reason, status এবং date/time সম্পর্কিত তথ্য থেকে থাকতে পারে।
-        </p>
-
-        <p>
-            বর্তমান implementation অনুযায়ী এই legacy records
-            developer-operated server-এ পাঠানোর কোনো app-owned ব্যবস্থা নেই।
-        </p>
-
-        <p>
-            Legacy Baki/Dhar SharedPreferences data Android cloud backup,
-            device-transfer এবং legacy Android Auto Backup থেকে exclude করা হয়েছে।
-        </p>
-
-        <p>
-            Android system settings থেকে app data clear করা অথবা app uninstall
-            করলে এই local legacy data remove হতে পারে।
-        </p>
-
-    </div>
-
-
-    <h2>৮. AI Panjika Search</h2>
+    <h2>৭. AI Panjika Search</h2>
 
     <p>
         বর্তমান AI Panjika Search এবং সংশ্লিষ্ট search functionality
@@ -280,65 +234,54 @@
     <p>
         বর্তমান implementation-এ remote AI API, cloud backend অথবা
         developer-operated online server-এর মাধ্যমে search query পাঠানোর
-        ব্যবস্থা পাওয়া যায়নি।
+        ব্যবস্থা নেই।
     </p>
 
 
-    <h2>৯. Internet / Server Transmission</h2>
+    <h2>৮. Internet / Server Transmission</h2>
 
     <p>
         বর্তমান app version-এ Android INTERNET permission declared নেই।
     </p>
 
     <p>
-        বর্তমান audited implementation অনুযায়ী Daily Notebook,
+        বর্তমান implementation অনুযায়ী Daily Notebook,
         AI Panjika Search data অথবা location information
-        developer-operated server-এ পাঠানোর কোনো app-owned ব্যবস্থা
-        পাওয়া যায়নি।
-    </p>
-
-    <p>
-        পুরোনো version থেকে device-এ থেকে যাওয়া legacy Baki/Dhar data-ও
-        বর্তমান app-owned code দ্বারা developer-operated server-এ পাঠানো হয় না।
+        developer-operated server-এ পাঠানোর কোনো app-owned ব্যবস্থা নেই।
     </p>
 
 
-    <h2>১০. বিজ্ঞাপন ও Analytics</h2>
+    <h2>৯. বিজ্ঞাপন ও Analytics</h2>
 
     <p>
         বর্তমান app version-এ advertising SDK, analytics SDK,
         advertising ID usage অথবা third-party crash-reporting SDK
-        পাওয়া যায়নি।
+        ব্যবহার করা হয় না।
     </p>
 
     <p>
-        ভবিষ্যতে এই behavior পরিবর্তিত হলে এই Privacy Policy প্রয়োজন অনুযায়ী
-        update করা হবে।
+        ভবিষ্যতে এই behavior পরিবর্তিত হলে এই Privacy Policy
+        প্রয়োজন অনুযায়ী update করা হবে।
     </p>
 
 
-    <h2>১১. Data Sharing</h2>
+    <h2>১০. Data Sharing</h2>
 
     <p>
         বর্তমান implementation অনুযায়ী অ্যাপ ব্যবহারকারীর locally stored
-        Daily Notebook records developer-operated server, advertising service
-        অথবা analytics service-এর সঙ্গে share করে না।
-    </p>
-
-    <p>
-        বর্তমান version-এ legacy Baki/Dhar local records-এর জন্যও
-        developer-operated server sharing path পাওয়া যায়নি।
+        Daily Notebook records developer-operated server,
+        advertising service অথবা analytics service-এর সঙ্গে share করে না।
     </p>
 
     <p>
         তবে Voice Input ব্যবহার করলে Android speech recognition provider
         voice input process করতে পারে। সেই processing অ্যাপ developer-এর
-        direct server processing নয় এবং সংশ্লিষ্ট provider/device
+        direct server processing নয় এবং সংশ্লিষ্ট provider অথবা device
         configuration-এর উপর নির্ভর করে।
     </p>
 
 
-    <h2>১২. নিরাপদ Data Handling</h2>
+    <h2>১১. নিরাপদ Data Handling</h2>
 
     <p>
         অ্যাপটি permission শুধুমাত্র সংশ্লিষ্ট feature চালানোর জন্য ব্যবহার করে।
@@ -351,28 +294,17 @@
     </p>
 
     <p>
-        Daily Notebook local data Android cloud backup, device-transfer
-        এবং legacy Android Auto Backup থেকে exclude করা হয়েছে।
+        Daily Notebook local data Android cloud backup,
+        device-transfer এবং legacy Android Auto Backup থেকে exclude করা হয়েছে।
     </p>
 
     <p>
-        পুরোনো version থেকে থেকে যাওয়া legacy Baki/Dhar local data-ও
-        Android cloud backup, device-transfer এবং legacy Android Auto Backup
-        থেকে exclude করা হয়েছে।
-    </p>
-
-    <p>
-        Current implementation অনুযায়ী অ্যাপ এই Daily Notebook অথবা
-        legacy Baki/Dhar records developer-operated server-এ পাঠায় না।
-    </p>
-
-    <p>
-        এই Privacy Policy encryption, end-to-end encryption অথবা
-        custom cryptographic storage-এর কোনো unsupported দাবি করে না।
+        বর্তমান implementation অনুযায়ী অ্যাপ Daily Notebook records
+        developer-operated server-এ পাঠায় না।
     </p>
 
 
-    <h2>১৩. Data Retention এবং Deletion</h2>
+    <h2>১২. Data Retention এবং Deletion</h2>
 
     <p>
         Daily Notebook data ব্যবহারকারীর device-এর app storage-এ থাকে
@@ -386,24 +318,12 @@
     </p>
 
     <p>
-        বর্তমান app version-এ Baki/Dhar Khata user-facing feature উপলব্ধ নয়।
-        তাই legacy Baki/Dhar data-এর জন্য কোনো current in-app Baki/Dhar
-        edit/delete functionality দাবি করা হচ্ছে না।
-    </p>
-
-    <p>
-        পুরোনো version থেকে legacy Baki/Dhar local data থেকে থাকলে
-        Android system settings থেকে app data clear করা অথবা app uninstall
-        করার মাধ্যমে সেই local data remove হতে পারে।
-    </p>
-
-    <p>
         App uninstall করলে Android সাধারণত app-এর local storage-এর সঙ্গে
         সংরক্ষিত data remove করে।
     </p>
 
 
-    <h2>১৪. শিশুদের গোপনীয়তা</h2>
+    <h2>১৩. শিশুদের গোপনীয়তা</h2>
 
     <p>
         Bangla Calendar AI Powered একটি সাধারণ calendar, panjika এবং
@@ -420,7 +340,7 @@
     </p>
 
 
-    <h2>১৫. ভবিষ্যৎ পরিবর্তন</h2>
+    <h2>১৪. ভবিষ্যৎ পরিবর্তন</h2>
 
     <p>
         App-এর feature, permission অথবা data-handling practice ভবিষ্যতে
@@ -433,7 +353,7 @@
     </p>
 
 
-    <h2>১৬. যোগাযোগ</h2>
+    <h2>১৫. যোগাযোগ</h2>
 
     <div class="notice">
         Privacy সম্পর্কিত প্রশ্নের জন্য Google Play Store listing-এ দেওয়া
